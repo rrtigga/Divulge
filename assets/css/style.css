@@ -7,21 +7,17 @@ html, body {
 }
 
 body {
-	margin: 0;
-	background-color: #172440;
 	color: white;
 	font-family: 'Lora', serif;
+	width: 100%;
+    height: 100%;
+    background-image:url(../img/splash1.png);
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+    padding: 0;
 }
 
-.background {
-	background-image: url(../img/pattern3.png);
-	opacity: 0.5;
-	height: 100%;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	z-index: -1;
-}
 
 .hero {
 /*	margin-bottom: 120px;
@@ -36,14 +32,24 @@ body {
 	margin-bottom: 30px;
 }
 
+.floatRight {
+	float: right;
+}
+
 .headline {
-	font-size: 68px;
+	font-size: 48px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .caption {
 	font-size: 22px;
+}
+
+.logo {
+	width: 225px;
+	max-width: 225px;
+	height: auto;
 }
 
 button {
