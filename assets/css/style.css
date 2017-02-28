@@ -21,12 +21,12 @@ body {
 
 .hero {
 /*	margin-bottom: 120px;
-*/	padding-top: 20px;
+*/	padding-top: 5%;
 	margin: 0 15px;
 }
 
 .container {
-	max-width: 1080px;
+	max-width: 1000px;
 	margin: 0 auto;
 	text-align: center;
 	margin-bottom: 30px;
@@ -37,19 +37,23 @@ body {
 }
 
 .headline {
-	font-size: 48px;
+	font-size: 56px;
     font-weight: 700;
     text-transform: uppercase;
 }
 
 .caption {
-	font-size: 22px;
+	font-size: 28px;
 }
 
 .logo {
-	width: 225px;
-	max-width: 225px;
+	width: 260px;
+	max-width: 260px;
 	height: auto;
+}
+
+.inline {
+	display: inline;
 }
 
 button {
